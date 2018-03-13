@@ -106,7 +106,7 @@ color: red;}
 .titl{
         margin-left: 40px;
     font-family: HK2;
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -120,7 +120,7 @@ color: red;}
         margin-left: 40px;
     padding: 0px;
     margin-top: 40px;
-    font-size: 24px;
+    font-size: 30px;
    
 }
 .intro{
@@ -140,9 +140,9 @@ color: red;
 font-family: 'Zara';
 }
 .categories{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .titletxt{
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.3;}
