@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'HK1';
+    src:    url('font/HKGrotesk-Light.eot');
+    src:    url('font/HKGrotesk-Light.svg'),
+            url('font/HKGrotesk-Light.woff') format('woff'),
+            url('font/HKGrotesk-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HK1-1';
+    src:    url('font/HKGrotesk-LightItalic.eot');
+    src:    url('font/HKGrotesk-LightItalic.svg'),
+            url('font/HKGrotesk-LightItalic.woff') format('woff'),
+            url('font/HKGrotesk-LightItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HK2';
+    src:    url('font/HKGrotesk-Medium.eot');
+    src:    url('font/HKGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+            url('font/HKGrotesk-Medium.woff') format('woff'),
+            url('font/HKGrotesk-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HK3';
+    src:    url('font/HKGrotesk-Medium.eot');
+    src:    url('font/HKGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+            url('font/HKGrotesk-Medium.woff') format('woff'),
+            url('font/HKGrotesk-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/*.project1{
+    display: none;
+}*/
+
+.aboutProject{
+    margin-top: 0px;
+    margin-right: 80px;
+    }
+
+    body {
+    width: 100%;
+    background-color: white;
+    font-family: 'HK2';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    font-size: 28px;
+    line-height: 1.3;
+    margin-top: 80px;
+    position: fixed;
+
+}
+
+img.imgproj{
+    border: 0;
+    max-width: 850px;
+
+}
+
+.loader--headline{
+    position: fixed;
+    left: 0px;
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+a:hover {
+color: red;}
+
+.moreinfo{
+        margin-top: 0px;
+    margin-right: 100px;
+}
+
+.top{
+      position: fixed;
+    min-height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 7;
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+}
+
+.titl{
+        margin-left: 40px;
+    font-family: HK2;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.content{
+        margin-left: 40px;
+    padding: 0px;
+    margin-top: 40px;
+    font-size: 24px;
+   
+}
+.intro{
+    margin-left: 40px;
+    margin-top: 100px;
+    padding-right: 40px;
+}
+.petit{
+    font-size: 22px;
+font-family: 'HK1-1';}
+
+nav.ul.li:hover{
+color: red;
+}
+.italove{
+
+font-family: 'Zara';
+}
+.categories{
+    text-decoration: underline;
+}
+
+.titletxt{
+    font-size: 24px;
+    line-height: 1.3;}
