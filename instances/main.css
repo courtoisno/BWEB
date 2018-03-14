@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'HK1';
     src:    url('font/HKGrotesk-Light.eot');
     src:    url('font/HKGrotesk-Light.svg'),
@@ -34,7 +34,7 @@
             url('font/HKGrotesk-Medium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 
 
@@ -42,17 +42,22 @@
 /*.project1{
     display: none;
 }*/
-
+/*.projtitle{
+text-decoration: underline;}
+*/
 .aboutProject{
     margin-top: 0px;
-    margin-right: 80px;
-    margin-left: 80px;
+    font-family: 'arial';
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 30px;
     }
 
     body {
     width: 100%;
     background-color: white;
-    font-family: 'HK2';
+    font-family: 'arial';
 }
 
 a{
@@ -60,17 +65,34 @@ a{
     color: black;
 }
 .nav{
-    font-size: 28px;
+   font-size: 28px;
     line-height: 1.3;
-    margin-top: 80px;
     position: fixed;
+    padding-left: 20px;
 
 }
 
-img.imgproj{
-        border: 0;
-    max-width: 850px;
-    margin-left: 80PX;
+iframe {
+    margin-left: 100px;
+    max-width: 90%;
+}
+img.imgproj {
+    border: 0;
+    /* max-width: 800px; */
+    max-width: 100%;
+    padding-left: 100px;
+    /* margin-left: 80PX; */
+}
+
+.close{
+        margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+
+.close:hover{
+    text-decoration: underline;
 }
 
 .loader--headline{
@@ -105,9 +127,9 @@ color: red;}
 }
 
 .titl{
-        margin-left: 40px;
+        margin-left: 60px;
     font-family: HK2;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -118,16 +140,15 @@ color: red;}
 }
 
 .content{
-        margin-left: 40px;
+    margin-left: 60px;
     padding: 0px;
-    margin-top: 40px;
-    font-size: 30px;
+    font-size: 28px;
    
 }
-.intro{
-    margin-left: 40px;
-    margin-top: 100px;
-    padding-right: 40px;
+
+.intro {
+    margin-left: 60px;
+
 }
 .petit{
     font-size: 22px;
@@ -137,20 +158,51 @@ color: red;}
 nav.ul.li:hover{
 color: red;
 }
-.italove{
 
-font-family: 'Zara';
+.row .col {
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    min-height: 1px;
+}
+
+.cwork{
+    margin-top: 0px;
 }
 .categories{
-    text-decoration: none;
-        text-transform: uppercase;
-    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+/*
+
+.projtitle:hover.hid{
+    display: block;
+}
+
+.hid{
+    display: none;
+}
+*/
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.anch{
+    padding-top: 20px;
 }
 
 .categories:hover{
-   font-style: oblique;
+}
+.sect{
+    margin-bottom: 20px;
 }
 
 .titletxt{
-    font-size: 30px;
-    line-height: 1.3;}
+    font-size: 28px;
+    line-height: 1.3;
+    padding-right: 30px;
+}
+
+
